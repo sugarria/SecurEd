@@ -69,7 +69,6 @@ public class Grade extends Activity implements OnClickListener{
 	public void onClick(View v) {
 		switch (v.getId()) {
 		case R.id.end_button:
-			database.resetForNewPlayer();
 			Intent intent = new Intent(this, SecurEd.class);
 			startActivity(intent);
 			break;

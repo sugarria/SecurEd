@@ -2,10 +2,6 @@ package com.example.secured.sql;
 
 import java.util.ArrayList;
 import java.util.List;
-import com.example.secured.model.Topic1answer;
-import com.example.secured.model.Topic2answer;
-import com.example.secured.model.Topic3answer;
-import com.example.secured.model.Topic4answer;
 import com.example.secured.model.TotalPoint;
 
 import android.content.ContentValues;
@@ -36,22 +32,6 @@ public class SecurEdDataSource {
 private SQLiteDatabase database;
 private MySQLiteOpenHelper dbHelper;
 
-//fields for the topic 1 table
-private String[] topic1Columns = {MySQLiteOpenHelper.TOPIC1_COLUMN_ID, 
-		MySQLiteOpenHelper.TOPIC1_COLUMN_POINTS};
-
-//fields for the topic 2 table
-private String[] topic2Columns = {MySQLiteOpenHelper.TOPIC2_COLUMN_ID, 
-		MySQLiteOpenHelper.TOPIC2_COLUMN_POINTS};
-
-//fields for the topic 3 table
-private String[] topic3Columns = {MySQLiteOpenHelper.TOPIC3_COLUMN_ID, 
-		MySQLiteOpenHelper.TOPIC3_COLUMN_POINTS};
-
-//fields for the topic 4 table
-private String[] topic4Columns = {MySQLiteOpenHelper.TOPIC4_COLUMN_ID, 
-		MySQLiteOpenHelper.TOPIC4_COLUMN_POINTS};
-
 //fields for the TOTAL POINT table
 private String[] totalPointColumns = {MySQLiteOpenHelper.TOTALPOINT_COLUMN_ID, 
 		MySQLiteOpenHelper.TOTALPOINT_COLUMN_TOTAL,
@@ -77,48 +57,7 @@ public void resetDatabase(){
 	dbHelper.onUpgrade(database, 0, 0);
 }
 
-public void resetForNewPlayer(){
-	dbHelper.resetForNewPlayer(database);
-}
 
-//insert topic 1 answers
-	public void insertTopic1Answer(Topic1answer topic1){
-		ContentValues values = new ContentValues();
-		values.put(MySQLiteOpenHelper.TOPIC1_COLUMN_POINTS,topic1.getPoints());
-		
-	
-		//insert it into the table and set the insert id
-		long insertId = database.insert(MySQLiteOpenHelper.TABLE_TOPIC1,  null,  values);
-		topic1.setId(insertId);
-		
-	}
-	//insert topic 2 answers
-	public void insertTopic2Answer(Topic2answer topic2){
-		ContentValues values = new ContentValues();
-		values.put(MySQLiteOpenHelper.TOPIC2_COLUMN_POINTS,topic2.getPoints());
-		//insert it into the table and set the insert id
-		long insertId = database.insert(MySQLiteOpenHelper.TABLE_TOPIC2,  null,  values);
-		topic2.setId(insertId);
-			
-		}
-		
-	//insert topic 3 answers
-		public void insertTopic3Answer(Topic3answer topic3){
-		ContentValues values = new ContentValues();
-		values.put(MySQLiteOpenHelper.TOPIC3_COLUMN_POINTS,topic3.getPoints());
-		//insert it into the table and set the insert id
-		long insertId = database.insert(MySQLiteOpenHelper.TABLE_TOPIC3,  null,  values);
-		topic3.setId(insertId);
-					
-	}
-	//insert topic 4 answers
-		public void insertTopic4Answer(Topic4answer topic4){
-		ContentValues values = new ContentValues();
-		values.put(MySQLiteOpenHelper.TOPIC4_COLUMN_POINTS,topic4.getPoints());
-		//insert it into the table and set the insert id
-		long insertId = database.insert(MySQLiteOpenHelper.TABLE_TOPIC4,  null,  values);
-		topic4.setId(insertId);
-		}
 	//username and total point
 		public void insertTotalPoint(TotalPoint totalPoint){
 		ContentValues values = new ContentValues();
@@ -159,113 +98,7 @@ public void resetForNewPlayer(){
 		        return count;
 		    }
 		 
-		 public int getTotalPoint1Count() {
-			 	int count = 0;
-		        String countQuery = "SELECT  * FROM " + MySQLiteOpenHelper.TABLE_TOPIC1;
-		        Cursor cursor = database.rawQuery(countQuery, null);
-		        if(cursor != null && !cursor.isClosed()){
-		            count = cursor.getCount();
-		            cursor.close();
-		        } 
-		        // return count
-		        return count;
-		    }
-		 
-		 public int getTotalPoint2Count() {
-			 	int count = 0;
-		        String countQuery = "SELECT  * FROM " + MySQLiteOpenHelper.TABLE_TOPIC2;
-		        Cursor cursor = database.rawQuery(countQuery, null);
-		        if(cursor != null && !cursor.isClosed()){
-		            count = cursor.getCount();
-		            cursor.close();
-		        } 
-		        // return count
-		        return count;
-		    }
-		 
-		 public int getTotalPoint3Count() {
-			 	int count = 0;
-		        String countQuery = "SELECT  * FROM " + MySQLiteOpenHelper.TABLE_TOPIC3;
-		        Cursor cursor = database.rawQuery(countQuery, null);
-		        if(cursor != null && !cursor.isClosed()){
-		            count = cursor.getCount();
-		            cursor.close();
-		        } 
-		        // return count
-		        return count;
-		    }
-		 public int getTotalPoint4Count() {
-			 	int count = 0;
-		        String countQuery = "SELECT  * FROM " + MySQLiteOpenHelper.TABLE_TOPIC4;
-		        Cursor cursor = database.rawQuery(countQuery, null);
-		        if(cursor != null && !cursor.isClosed()){
-		            count = cursor.getCount();
-		            cursor.close();
-		        } 
-		        // return count
-		        return count;
-		    }
-		//get answer1 points according to  id
-			public Topic1answer getAnswer1Point(long Id){
-				String where = MySQLiteOpenHelper.TOPIC1_COLUMN_ID + " = " + Id;
-				Cursor cursor = database.query(MySQLiteOpenHelper.TABLE_TOPIC1, topic1Columns, where, null, null, null,null);
-				Topic1answer foundTotal1= new Topic1answer();
-				if(cursor.getCount() == 0){
-					foundTotal1 = null;
-				} else {
-					cursor.moveToFirst();
-					foundTotal1.setId(cursor.getLong(0));
-					foundTotal1.setPoints(Integer.parseInt(cursor.getString(1)));
-				
-								
-				}
-				return foundTotal1;
-			}
-			//get answer2 points according to  id
-			public Topic2answer getAnswer2Point(long Id){
-				String where = MySQLiteOpenHelper.TOPIC2_COLUMN_ID + " = " + Id;
-				Cursor cursor = database.query(MySQLiteOpenHelper.TABLE_TOPIC2, topic2Columns, where, null, null, null,null);
-				Topic2answer foundTotal2= new Topic2answer();
-				if(cursor.getCount() == 0){
-					foundTotal2 = null;
-				} else {
-					cursor.moveToFirst();
-					foundTotal2.setId(cursor.getLong(0));
-					foundTotal2.setPoints(Integer.parseInt(cursor.getString(1)));
-						
-				}
-				return foundTotal2;
-			}
-			//get answer3 points according to  id
-			public Topic3answer getAnswer3Point(long Id){
-				String where = MySQLiteOpenHelper.TOPIC3_COLUMN_ID + " = " + Id;
-				Cursor cursor = database.query(MySQLiteOpenHelper.TABLE_TOPIC3, topic3Columns, where, null, null, null,null);
-				Topic3answer foundTotal3 = new Topic3answer();
-				if(cursor.getCount() == 0){
-					foundTotal3 = null;
-				} else {
-					cursor.moveToFirst();
-					foundTotal3.setId(cursor.getLong(0));
-					foundTotal3.setPoints(Integer.parseInt(cursor.getString(1)));
-								
-				}
-				return foundTotal3;
-			}
-			//get answer4 points according to  id
-			public Topic4answer getAnswer4Point(long Id){
-				String where = MySQLiteOpenHelper.TOPIC4_COLUMN_ID + " = " + Id;
-				Cursor cursor = database.query(MySQLiteOpenHelper.TABLE_TOPIC4, topic4Columns, where, null, null, null,null);
-				Topic4answer foundTotal4= new Topic4answer();
-				if(cursor.getCount() == 0){
-					foundTotal4 = null;
-				} else {
-					cursor.moveToFirst();
-					foundTotal4.setId(cursor.getLong(0));
-					foundTotal4.setPoints(Integer.parseInt(cursor.getString(cursor.getColumnIndexOrThrow(MySQLiteOpenHelper.TOPIC4_COLUMN_POINTS))));
-						
-				}
-				return foundTotal4;
-			}
+	
 		//get totalPoint according to totalPoint's id
 			public TotalPoint getTotalPoint(long Id){
 				String selectQuery = "SELECT * FROM totalPoint WHERE _id=" + Id;
