@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="12.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>0</x>
+      <y>0</y>
+      <w>260</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>topic1Answer
+--
+id integer primary key autoincrement
+totalPoint1 integer</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>280</x>
+      <y>0</y>
+      <w>260</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>topic2Answer
+--
+id integer primary key autoincrement
+totalPoint2 integer</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>10</x>
+      <y>100</y>
+      <w>260</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>topic3Answer
+--
+id integer primary key autoincrement
+totalPoint3 integer</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>300</x>
+      <y>90</y>
+      <w>260</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>topic4Answer
+--
+id integer primary key autoincrement
+totalPoint4 integer</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>140</x>
+      <y>190</y>
+      <w>260</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>TotalPoint
+--
+id integer primary key autoincrement
+name text
+total integer
+visit1 integer
+visit2 integer
+visit3 integer
+visit4 integer</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

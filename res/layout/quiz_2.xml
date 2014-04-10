@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android1="http://schemas.android.com/apk/res/android"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background_temp"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical"
+         >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Cloud Computing Quiz"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/question1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android1:id="@+id/textView1"
+                android1:layout_width="wrap_content"
+                android1:layout_height="wrap_content"
+                android1:textSize="12sp"
+                android1:text="1. What is Cloud Computing connected through?" />
+
+            <RadioGroup
+                android1:id="@+id/radioGroup1"
+                android1:layout_width="wrap_content"
+                android1:layout_height="wrap_content"
+                 >
+
+                <RadioButton
+                    android:id="@+id/radio0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                 
+                    android:textSize="12sp"      
+                    android:text="Offline connection" />
+
+                <RadioButton
+                    android:id="@+id/radio1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:text="Real time connection" />
+
+                <RadioButton
+                    android:id="@+id/radio2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:text="Both Real time and offline connection" />
+                
+                 </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/question2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:text="2. What concept does Cloud Computing similar to?" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <RadioButton
+                    android:id="@+id/radio5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                 
+                    android:text="Networking Programming Concept" />
+
+                <RadioButton
+                    android:id="@+id/radio6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:text="Databases" />
+
+                <RadioButton
+                    android:id="@+id/radio7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:text="Architecture System" />
+                
+                <RadioButton
+                    android:id="@+id/radio8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:text="Utility Computing" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android1:id="@+id/question3"
+            android1:layout_width="match_parent"
+            android1:layout_height="wrap_content"
+            android1:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:text="3. Cloud Computing can run a program simultaneously on many connected devices" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <RadioButton
+                    android:id="@+id/radio9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                 
+                    android:text="True" />
+
+                <RadioButton
+                    android:id="@+id/radio10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:text="False" />
+
+               
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android1:id="@+id/question4"
+            android1:layout_width="match_parent"
+            android1:layout_height="wrap_content"
+            android1:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:text="4. How many known models of Cloud Computing?" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <RadioButton
+                    android:id="@+id/radio13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                
+                    android:text="1" />
+
+                <RadioButton
+                    android:id="@+id/radio14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:text="2" />
+
+                <RadioButton
+                    android:id="@+id/radio15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:text="3" />
+                
+                <RadioButton
+                    android:id="@+id/radio16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:text="4" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android1:id="@+id/question5"
+            android1:layout_width="match_parent"
+            android1:layout_height="wrap_content"
+            android1:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android1:textSize="12sp"
+                android:text="5. What is Danny and Sophia position?" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <RadioButton
+                    android:id="@+id/radio17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                 
+                    android:text="Danny and Sophia loves Cloud Computing" />
+
+                <RadioButton
+                    android:id="@+id/radio18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:text="Danny and Sophia hates Cloud Computing" />
+
+                <RadioButton
+                    android:id="@+id/radio19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:text="Danny hates Cloud Computing, while Sophia loves Cloud Computing" />
+                
+                <RadioButton
+                    android:id="@+id/radio20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:text="Danny loves Cloud Computing, while Sophia hates Cloud Computing" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android1:id="@+id/question6"
+            android1:layout_width="match_parent"
+            android1:layout_height="wrap_content"
+            android1:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:text="6. What does Sophia think of Cloud Computing" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <RadioButton
+                    android:id="@+id/radio21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android1:textSize="12sp"
+                  
+                    android:text="She is a major fan of it" />
+
+                <RadioButton
+                    android:id="@+id/radio22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:text="She thinks that Cloud Computing is very dangerous" />
+
+                <RadioButton
+                    android:id="@+id/radio23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:text="She thinks that Cloud Computing can cause data loss" />
+                
+                <RadioButton
+                    android:id="@+id/radio24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:text="She is just messing with Danny" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android1:id="@+id/question7"
+            android1:layout_width="match_parent"
+            android1:layout_height="wrap_content"
+            android1:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:text="7. Danny suggests that Cloud Computing should be checked constantly to ensure safety before doing anything about it" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <RadioButton
+                    android:id="@+id/radio25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+             
+                    android:text="True" />
+
+                <RadioButton
+                    android:id="@+id/radio26"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:text="False" />
+
+              
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android1:id="@+id/question8"
+            android1:layout_width="match_parent"
+            android1:layout_height="wrap_content"
+            android1:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:text="8. Sophia suggests that if Cloud Computing is to be deployed they should implement strong API access control" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <RadioButton
+                    android:id="@+id/radio29"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                
+                    android:text="True" />
+
+                <RadioButton
+                    android:id="@+id/radio30"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:text="False" />
+
+              
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android1:id="@+id/question9"
+            android1:layout_width="match_parent"
+            android1:layout_height="wrap_content"
+            android1:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:text="9. Danny suggests to Sophia that they should protect the integrity of data in transit" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <RadioButton
+                    android:id="@+id/radio33"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                 
+                    android:text="True" />
+
+                <RadioButton
+                    android:id="@+id/radio34"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:text="False" />
+
+               
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android1:id="@+id/question10"
+            android1:layout_width="match_parent"
+            android1:layout_height="wrap_content"
+            android1:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:text="10. Both of Sophia and Danny reach an agreement" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <RadioButton
+                    android:id="@+id/radio37"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                 
+                    android:text="True" />
+
+                <RadioButton
+                    android:id="@+id/radio38"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:text="False" />
+
+               
+            </RadioGroup>
+            
+            
+
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="right" >
+      <Button
+        android:id="@+id/next_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"    
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:textColor="#ffffff"
+        android:background="@drawable/play_button"
+        android:shadowColor="#000000"
+        android:onClick="goToQuiz1"
+        android:text="@string/finish_quiz" />
+        </LinearLayout>
+        
+    </LinearLayout>
+
+</ScrollView>

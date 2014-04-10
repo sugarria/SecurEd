@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SecurEd</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="choose_a_story">Choose a Story</string>
+    <string name="grade">Grade</string>
+    <string name="next">Next</string>
+    <string name="the_story">The Story</string>
+    <string name="finish_quiz">Finish Quiz</string>
+    <string name="quiz_explanation">Quiz Explanation</string>
+    <string name="next_story">Next Story</string>
+    <string name="what_is_security">What is Security?</string>
+    <string name="secured">SecurEd</string>
+    <string name="play_button">Play</string>
+    <string name="tagline">The Information Security Game</string>
+    <string name="score_board">Score Board</string>
+    <string name="end">End</string>
+    <string name="btn_save">Save</string>
+    
+    <!-- Strings for Introduction -->
+    <string name="security_explanation">In general, security is the quality or state of being secure—to be free from danger. In other words, protection against adversaries—from those who would do harm, intentionally or otherwise—is the objective.</string>
+    <!-- End Strings for Introduction -->
+    
+
+    <!-- Strings for Story 1 -->
+    <string name="topic1">Trojan SMS</string>
+    <string name="explanation_1">Malware known as Trojan SMSs worm is a major type of malicious app used to interrupt the normal operations of your mobile device and gain access to the private information you have stored in it such as address book. These kinds of threats are called Malware. Some examples of what they do are: steal your contacts and pictures, track your location, access your text messages, log your keystrokes and passwords, Send SMS messages to premium numbers without your knowledge that can result in a very high phone bill, fake legitimate banking applications and steal your personal banking information when you log in. Trojan-SMS Agent is currently ranked 210 in the world for mobile, online and PC malware, affecting between 50,000 and 100,000 users. Unfortunately, today SMS Trojans are one the easiest ways for cybercriminals to make easy money fast. Malicious use of premium rate SMS services is spreading around the world.</string>
+    <string name="story_1">That morning Melissa didn\'t feel like going to work. During her previous week she had had too much work to keep up with now that her boss was out on vacations, and the sore throat that threatened to develop into a cold convinced her that staying home was the right thing to do. \‘Poor Debbie\’ she thought. \‘I hope she can handle all my customers today\’.\nAfter calling out from work, she realized that she didn\'t even have the intention to get out from under her sheets, until her body came up with physiological excuse to do so, which didn\'t take too long. –Ugh… hate my life—she said, while washing her face on the bathroom sink. Suddenly the annoying but familiar sound of her alarm went off and she debated whether to keep listening to it or just going back to her bedroom and turning it off. She opted for the latter. After turning it off, she took her phone from her drawer and took it to the bathroom with her to read her newsfeed on Facebook while she brushed her teeth with the other hand.\nHowever before opening her Facebook app, she noticed 6 SMS text notifications from her friend Debbie. –Oh my god, is she freaking out already!? —She mumbled still with her toothbrush in her mouth. She went ahead and opened one of the text messages.\n‘You’ll not believe this! Check this out: http://bitk.it/1cnQkZU’ —said the text message. Melissa\’s curiosity made her click on the text message and her browser opened tons of websites with advertisements of every kind.\nNot understanding why Debbie would send her a link like that, she decided to call her in case she had missed the point. But after opening her contacts app, she noticed that all her contacts were all gone and the next week she got her bill with an additional $104.59 for text messages to international numbers.</string>
+    <!-- End for Story 1 -->
+    
+    <!-- Strings for Story 2 -->
+    <string name="topic2">Cloud Computing</string>
+    <string name="explanation_2">Cloud computing is a phrase used to describe a variety of computing concepts that involve a large number of computers connected through a real-time communication network such as the Internet. It is very similar to the concept of utility computing. In science, cloud computing is a synonym for distributed computing over a network, and means the ability to run a program or application on many connected computers at the same time.\n There are mainly four models of cloud computing: \n 1. Infrastructure as a Service (IaaS).\n 2. Platform as a Service (PaaS).\n 3. Software as a Service (SaaS).\n 4. Network as a Service (Naas)</string>
+    <string name="story_2">There are two characters in the setting. They are working in a company called CloudOn. They are in the same department. The first character is a guy named Danny. Danny is the guy who loves Cloud Computing. The second character is a girl named Sophia. Sophia is the one who disapprove Cloud Computing.\n Danny: Ah! Why is our company still not moving to the Cloud?? My job and my life could be so much easier!\n Sophia: (was looking away, now looking at Danny) Don’t you think the cloud is a bit dangerous for our company? I think we are not prepared for that.\n Danny: Nonsense! Cloud Computing is perfect for our company! If we had our data stored on the cloud. We could access the company’s data from anywhere around the globe! It is so convenient! We can move beyond time zone and geographic location issues!\n Sophia: Uhmmm.... yeah... but don’t you think it is risky to store information in the cloud? Well maybe, we are more prone to data loss and leakage?\n Danny: How it is so?\n Sophia: The threat of data compromise increases in the cloud, due to the number of and interactions between risks and challenges which are either unique to cloud, or more dangerous because of the architectural or operational characteristics of the cloud environment.\n Danny: Yeah, but what we could do is:implement strong API access control and encrypt and protect integrity of data in transit.\n Sophia: hmm.. but still Danny, I think we have to wait for the CIO to decide. Dealing with the Cloud is a big decision for this company. </string>
+    
+     <!-- End for Story 2 -->
+    
+    <!-- Strings for Story 3 -->
+     <string name="topic3">Android Malware</string>
+      <!-- Quiz_3 -->
+    <string name="Quiz3_Title">Android Malware Quiz</string>
+    <string name="Quiz3_Question1">1. What should you do when downloading a new app on your phone?</string>
+    <string name="Quiz3_Question1_Answer1">Skip through the permissions screen</string>
+    <string name="Quiz3_Question1_Answer2">Check App Store Reviews</string>
+    <string name="Quiz3_Question1_Answer3">Skip scanning the app</string>
+    <string name="Quiz3_Question1_Answer4">Download the app from a random website</string>
+    <string name="Quiz3_Question2">2. True or False: It is important to pay attention to the permissions requested by an app.</string>
+    <string name="Quiz3_Question2_Answer1">True</string>
+    <string name="Quiz3_Question2_Answer2">False</string>
+    <string name="Quiz3_Question3">3. What major mistake did Jake make in the story?</string>
+    <string name="Quiz3_Question3_Answer1">He didn\'t check the reviews of the app before downloading.</string>
+    <string name="Quiz3_Question3_Answer2">He didn\'t read the permissions screen before downloading.</string>
+    <string name="Quiz3_Question3_Answer3">He used the official Google app store.</string>
+    <string name="Quiz3_Question3_Answer4">A and B</string>
+    <string name="Quiz3_Question4">4. Which of the following could be a bad idea for protecting a device?</string>
+    <string name="Quiz3_Question4_Answer1">Installing an app from an untrusted source</string>
+    <string name="Quiz3_Question4_Answer2">Checking app reviews</string>
+    <string name="Quiz3_Question4_Answer3">Using encryption</string>
+    <string name="Quiz3_Question4_Answer4">Scanning downloaded apps</string>
+    <string name="Quiz3_Question5">5. Which of the following is a good idea for protecting a device?</string>
+    <string name="Quiz3_Question5_Answer1">Turning off antivirus</string>
+    <string name="Quiz3_Question5_Answer2">Not using a password for the lock screen</string>
+    <string name="Quiz3_Question5_Answer3">Clicking on ads in a suspicious app</string>
+    <string name="Quiz3_Question5_Answer4">Checking an app\'s requested permissions</string>
+    <string name="Quiz3_Question6">6. True or false: An app on the official Google store can\'t have malware</string>
+    <string name="Quiz3_Question6_Answer1">True</string>
+    <string name="Quiz3_Question6_Answer2">False</string>
+    <string name="Quiz3_Question7">7. What can malware cause?</string>
+	<string name="Quiz3_Question7_Answer1">Loss of money</string>
+    <string name="Quiz3_Question7_Answer2">Device malfunctioning</string>
+    <string name="Quiz3_Question7_Answer3">Spam</string>
+    <string name="Quiz3_Question7_Answer4">All of the above</string>
+    <string name="Quiz3_Question8">8. What is the name of the app that contained malware from the story?</string>
+    <string name="Quiz3_Question8_Answer1">Bird of Flap</string>
+    <string name="Quiz3_Question8_Answer2">Angry Birds</string>
+    <string name="Quiz3_Question8_Answer3">Flappy Bird</string>
+    <string name="Quiz3_Question8_Answer4">Flappy Pup</string>
+    <string name="Quiz3_Question9">9. True or false: Malware can cause a phone\'s battery to drain faster</string>
+    <string name="Quiz3_Question9_Answer1">True</string>
+    <string name="Quiz3_Question9_Answer2">False</string>
+    <string name="Quiz3_Question10">10. What can you do to protect your android device?</string>
+    <string name="Quiz3_Question10_Answer1">Use a trusted antivirus</string>
+    <string name="Quiz3_Question10_Answer2">Use a trusted anti-malware</string>
+    <string name="Quiz3_Question10_Answer3">Keep your device updated</string>
+    <string name="Quiz3_Question10_Answer4">All of the above</string>
+    
+    <!-- Quiz_Explanation_3 -->
+    <string name="Quiz3_Exp_Title">Malware Quiz Explanation</string>
+    <string name="Quiz3_Exp_Question1">Question 1: \nThe answer is "Check reviews", because the reviews may mention malware or other undesirable aspects of the application.</string>
+    <string name="Quiz3_Exp_Question2">Question 2: \nThe answer is \"True\", because looking at the permissions of an app could reveal that the app is requesting more permissions than it needs, like access to your contacts or any other sensitive data, which could be misused.</string>
+    <string name="Quiz3_Exp_Question3">Question 3: \nThe answer is "A and B", because if Jake had read reviews, he might have been informed about the malware, or if he had checked the permissions requested by the device he may have noticed that it requested the ability to send text messages.</string>
+    <string name="Quiz3_Exp_Question4">Question 4: \nThe answer is "Installing an app from an untrusted source", because installing from untrusted sources means the app has not been checked by Google at all, and could contain anything (such as malware).</string>
+    <string name="Quiz3_Exp_Question5">Question 5: \nThe answer is "Checking an app\'s requested permissions", because if you pay attention to the permissions requested you may notice that the app is requesting permissions it doesn\'t need, which may indicate that it is malware.</string>
+    <string name="Quiz3_Exp_Question6">Question 6: \nThe answer is "False", because even apps on the app store could contain undetected malware.</string>
+    <string name="Quiz3_Exp_Question7">Question 7: \nThe answer is "All of the above".  Malware can cause loss of money (such as the malware from the story), device malfunctioning (like the bitcoin mining apps from the lecture which caused rapid battery loss), and spam (if the app gains contact information).</string>
+    <string name="Quiz3_Exp_Question8">Question 8: \nThe answer is "Flappy Bird", as the malware from the story was in a Flappy Bird clone.</string>
+    <string name="Quiz3_Exp_Question9">Question 9: \nThe answer is "True".  An example of this is the app from the lecture which mined bitcoins.</string>
+    <string name="Quiz3_Exp_Question10">Question 10: \nThe answer is "All of the above", because using antivirus, anti-malware, and the latest system update can help detect and eliminate malware.</string>
+    
+    <!-- Layout_Topic_3 -->
+    <string name="Layout_Topic_3_Title">Android Malware</string>
+    <string name="Layout_Topic_3_Lecture">Over 90% of mobile malware in 2013 was targeted at Android devices, and it continues to be the target of the majority of malware attacks.  Because of this, it is important to be cautious in how you use your Android devices in order to keep yourself safe from malware.  One of the simplest things that can be done to avoid malware is to check the reviews for any app before downloading, as sometimes a review will contain information about malware.  Users should also avoid installing apps from untrusted sources, as there is no guarantee what the untrusted app will contain.  Other things that can be done are using a password on the lock screen, using trusted antivirus and anti-malware apps (such as the built in Google app scanner on Android), encrypting your device, updating your device, and carefully reading the permissions screen when installing an application.
+On top of malware, there are other types of potentially undesirable apps, such as apps with spyware and apps that abuse permissions.  Once again, users should check reviews, as they sometimes contain reports about undesirable features of an app, as well as paying careful attention to the requested permissions of an app before downloading.
+Failing to protect your mobile device can lead to many undesirable and potentially costly consequences.  One recent example was a set of apps that used the phones of users to mine for bitcoins (a cryptocurrency).  This resulted in the users battery draining extremely fast.  Other examples of malware or unwanted apps are apps that access data on the phone without the users permission, apps with deceptive ads, and apps that attempt to use phishing to gain user credentials.</string>
+    
+    <!-- Story_3 -->
+	<string name="Story_3_Title">The Most Dangerous Game</string>
+	<string name="Story_3_Text">Jake had been hearing a lot from his friends about an Android game called Flappy Bird, and finally decided to give it a try.  Going onto the app store, he searched for the game but was surprised to find that there were a many different results with the same name.  Selecting one at random, he skipped through the permissions screen and quickly downloaded the game.  Hours later, a Jake threw his phone down in frustration after failing to beat his high score of 4.  Not realizing that he had exposed his phone to malware, he soon forgot about Flappy Bird, but left it installed on his phone.  Upon receiving his phone bill at the end of the month, he was baffled to find that he had a variety of charges due to text messages to “premium” numbers that he didn\'t recall making.  When he searched for an answer to why he had been charged for texts he never sent, he found that the Flappy Bird app he had downloaded was a fake, and actually had malware that used its permissions to send the texts in order to rack up charges.</string>
+	<!-- End of Part 3 -->
+    
+    
+     <!-- End for Story 3 -->
+    
+    <!-- Strings for Story 4 -->   
+    <string name="topic4">WEP Encryption</string>
+    <string name="explanation_4">If you have gotten this far in SecurEd, you have learned about Vulnerabilities, Threats, and Attacks. The quiz at the end of this section will present to you some specific Threats and Attacks, so we will define them here for your knowledge. The following are some types of Threats that are important to know. Sabotage/Vandalism is the destruction of systems or information. Technological Software Failure would include things like bugs, code problems, and unknown loopholes. Technological Obsolescence means antiquated or outdated technologies. Technological Hardware Failure refers to equipment failure, like a faulty component or wire. The following attacks are important to know as well. A Software Attack is something like a virus or Trojan. Phishing is defined as an attempt to gain personal or financial information from an individual, usually by posing as a legitimate entity. Spoofing is a technique used to gain unauthorized access; an intruder assumes a trusted IP address in this attack. A sniffer is a program or device that monitors data traveling over a network. Sniffers can be used for both legitimate purposes and for stealing information from a network. Pharming is the redirection of legitimate Web traffic to an illegitimate site for the purpose of obtaining private information. We will also see the importance of Technological Obsolescence in the story, involving a router that uses Wired Equivalent Privacy (WEP) encryption. WEP encryption has been proven to be insecure due to the nature of its key usage. An article describing breaking WEP encryption in 60 seconds can be found at http://eprint.iacr.org/2007/120.pdf. WEP encryption has been superseded by Wi-Fi Protected Access (WPA), a secure encryption scheme, although WEP is still supported because many devices still have hardware only for WEP encryption, as we see in the story.</string>
+    <string name="story_4">Alison attends college in her home state, twenty minutes from her parents’ house. During the summer, she was back at home visiting her parents for a week, and still had the WiFi password stored in her phone. She was thinking of buying a gift for her mother, a gardening enthusiast, before leaving for college. She wanted to get something seasonal that her mother would enjoy, and knowing that they both liked pumpkin pie, decided to buy her some pumpkin seeds to plant in the garden. There was one router and one desktop computer in the house that hadn’t been used very much by her slightly computer-illiterate parents, but it still functioned and provided Internet access. The router was fairly outdated, and still offered WEP encryption, an encryption scheme that has been proven to be insecure but is still used in out-of-date machines that haven’t been replaced. Alison, wanting to be discrete, decided to make the seed purchase on her phone so that she wouldn’t get walked in on by her mother and have the surprise ruined. She opened up the website of a gardening store and tapped through the checkout process, paid with her debit card, and chose to deliver the seeds to her house so she could gift wrap them before she left for college.
+Meanwhile, at her neighbor’s house, a group of highly computer-literate boys were having a sleepover. One of the boys’ fathers worked as a freelance mobile developer, and had shown him how sniffers work so that he would be informed about potential dangers with today’s new technology. This boy was showing off an advanced decrypting sniffer that his dad had installed on his phone, and they decided to try it out. They were able to see the WiFi traffic of all houses surrounding theirs, as the houses in this neighborhood were quite close together, and some were duplexes. The sniffer showed the boys the binary stream of the bits for each router, but most houses had modern encryption schemes and the sniffer didn’t know how to decrypt them. One of the traffic streams was able to be decrypted by the sniffer, and the boys were shocked to find the website, debit card number, address, and other information that Alison was entering into her phone over her insecure WEP encryption connection.
+</string>
+    <string name="storyTitle_4">An Insecure Mobile Purchase</string>
+    <string name="quizTitle_4">WEP Encryption Quiz</string>
+    <string name="quiz4_Q1">1.	WEP is a secure encryption scheme.</string>
+    <string name="quiz4_Q1_A1">True</string>
+    <string name="quiz4_Q1_A2">False</string>
+    <string name="quiz4_Q2">2.	What was the Vulnerability in this story?</string>
+    	<string name="quiz4_Q2_A1">The router\'s encryption scheme</string>
+    	<string name="quiz4_Q2_A2">The house computer</string>
+    	<string name="quiz4_Q2_A3">The boy\'s phone</string>
+    	<string name="quiz4_Q2_A4">Alison\'s phone</string>
+    <string name="quiz4_Q3">3.	What was the Threat in this story?</string>
+    	<string name="quiz4_Q3_A1">Sabotage/Vandalism</string>
+    	<string name="quiz4_Q3_A2">Technical Software Failure</string>
+    	<string name="quiz4_Q3_A3">Technological Obseolescence</string>
+    	<string name="quiz4_Q3_A4">Technical Hardware Failure</string>
+    <string name="quiz4_Q4">4.	Alison was the victim of a Software Attack.</string>
+    <string name="quiz4_Q5">5.	What was the Attack in this story?</string>
+    	<string name="quiz4_Q5_A1">Phishing</string>
+    	<string name="quiz4_Q5_A2">Sniffer</string>
+    	<string name="quiz4_Q5_A3">Pharming</string>
+    	<string name="quiz4_Q5_A4">Spoofing</string>
+    <string name="quiz4_Q6">6.	How can Alison mitigate this Threat?</string>
+    	<string name="quiz4_Q6_A1">Run a virus scan on her parents\' computer</string>
+    	<string name="quiz4_Q6_A2">Replace the computer at her house</string>
+    	<string name="quiz4_Q6_A3">Replace the router at her house</string>
+    	<string name="quiz4_Q6_A4">None of the above</string>
+    <string name="quiz4_Q7">7.	The boy’s sniffer captured Alison’s WiFi traffic.</string>
+    <string name="quiz4_Q8">8.	The boy’s sniffer was able to decrypt all Wifi traffic it found.</string>
+    <string name="quiz4_Q9">9.	What gift did Alison buy for her mother?</string>
+    	<string name="quiz4_Q9_A1">Apple seeds for apple pie</string>
+    	<string name="quiz4_Q9_A2">Peach seeds for peach pie</string>
+    	<string name="quiz4_Q9_A3">Pumpkin seeds for pumpkin pie</string>
+    	<string name="quiz4_Q9_A4">Cherry seeds for cherry pie</string>
+    <string name="quiz4_Q10">10.	WPA is a secure encryption scheme</string>
+    <string name="quiz_explanation4">Correct answers for the WEP encryption story</string>
+    <string name="quiz_explanation4_Q1">The answer is: False. WEP has been proven insecure as told in the lecture. Information can be found at http://eprint.iacr.org/2007/120.pdf</string>
+    <string name="quiz_explanation4_Q2">The answer is: The router\'s encryption scheme. It is the router\'s encryption scheme that allowed the attack to occur.</string>
+    <string name="quiz_explanation4_Q3">The answer is: Technological Obsolesence. The technology used (router with WEP encryption) is obsolete.</string>
+    <string name="quiz_explanation4_Q4">The answer is: False. A software attack would be something like a virus or worm, and Alison was the victim of a sniffer.</string>
+    <string name="quiz_explanation4_Q5">The answer is: Sniffer. The boy used a sniffer to see Alison\'s data transmissions.</string>
+    <string name="quiz_explanation4_Q6">The answer is: Replace the router at her house. The router uses an obsolete encryption scheme, and neither replacing the computer nor running a virus scan will fix the issue.</string>
+    <string name="quiz_explanation4_Q7">The answer is: True. This was the attack in the story.</string>
+    <string name="quiz_explanation4_Q8">The answer is: False. The sniffer was able to see all traffic, but only Alison\'s was able to be decrypted.</string>
+    <string name="quiz_explanation4_Q9">The answer is: Pumpkin seeds for punpkin pie. According to the story, both Alison and her mother like pumpkin pie.</string>
+    <string name="quiz_explanation4_Q10">The answer is: True. WPA is a secure encryption scheme as told in the lecture.</string>
+    <string name="quiz_explanation4_Q1header">Question 1</string>
+    <string name="quiz_explanation4_Q2header">Question 2</string>
+    <string name="quiz_explanation4_Q3header">Question 3</string>
+    <string name="quiz_explanation4_Q4header">Question 4</string>
+    <string name="quiz_explanation4_Q5header">Question 5</string>
+    <string name="quiz_explanation4_Q6header">Question 6</string>
+    <string name="quiz_explanation4_Q7header">Question 7</string>
+    <string name="quiz_explanation4_Q8header">Question 8</string>
+    <string name="quiz_explanation4_Q9header">Question 9</string>
+    <string name="quiz_explanation4_Q10header">Question 10</string>
+    
+    <!-- End for Story 4 -->
+    
+
+</resources>

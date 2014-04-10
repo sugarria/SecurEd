@@ -1,0 +1,132 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_temp"
+    android:orientation="vertical"
+     >
+    
+    <LinearLayout
+        android:id="@+id/android:randomlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"            
+        android:orientation="vertical" >
+
+     <TextView  
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/choose_a_story"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceLarge" /> 
+
+			</LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="60dp"
+        android:orientation="horizontal" >
+    
+<Button
+        android:id="@+id/button1"
+       	android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight="1"
+        android:layout_gravity="center_vertical"
+      
+      	android:textColor="#ffffff"
+        android:background="@drawable/play_button"
+        android:shadowColor="#000000"
+        android:text="@string/topic1"
+        android:onClick="goTopic1" />
+
+    
+    <View
+        android:layout_width="2dp"
+        android:layout_height="wrap_content"
+        />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight="1"    
+        android:layout_gravity="center_vertical"
+        android:textColor="#ffffff"
+        android:background="@drawable/play_button"
+        android:shadowColor="#000000"
+        android:text="@string/topic2"
+        android:onClick="goTopic2" />
+
+    </LinearLayout>
+    
+    <LinearLayout  android:layout_width="fill_parent"
+    android:layout_height="80dp"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="20dp" 
+    android:orientation="horizontal">
+	
+         <Button
+        android:id="@+id/button4"
+       	android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight="1"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/play_button"
+        android:onClick="goTopic4"
+        android:shadowColor="#000000"
+        android:text="@string/topic4"
+        android:textColor="#ffffff" />
+        
+    
+    
+     <View
+        android:layout_width="2dp"
+        android:layout_height="wrap_content"
+        />
+
+     <Button
+        android:id="@+id/button3"
+       android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight="1"    
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/play_button"
+        android:onClick="goTopic3"
+        android:shadowColor="#000000"
+        android:text="@string/topic3"
+        android:textColor="#ffffff" />
+     
+   
+    </LinearLayout>
+    
+    <Button
+        android:id="@+id/grade_button"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="40dp" 
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ffffff"
+        android:background="@drawable/play_button"
+        android:shadowColor="#000000"
+        android:onClick="gradeActivity"
+        android:text="@string/grade" />
+    
+    
+   
+    
+</LinearLayout>

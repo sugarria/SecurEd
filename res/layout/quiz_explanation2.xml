@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android1="http://schemas.android.com/apk/res/android"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_temp"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical"
+         >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Cloud Computing Explanation"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/explanation1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android1:id="@+id/textView1"
+                android1:layout_width="wrap_content"
+                android1:layout_height="wrap_content"
+                android1:textSize="12sp"
+                android1:text="Question1:\n The answer is: Real time connection. Cloud Computing uses service like the internet" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/explanation2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:text="Question2:\n The answer is: Utility Computing." />
+        </LinearLayout>
+
+        <LinearLayout
+            android1:id="@+id/explanation3"
+            android1:layout_width="match_parent"
+            android1:layout_height="wrap_content"
+            android1:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:text="Question3:\n The answer is: True. It is true that the reason companies evolving to Cloud Computing because of it's easy access" />
+        </LinearLayout>
+
+        <LinearLayout
+            android1:id="@+id/explanation4"
+            android1:layout_width="match_parent"
+            android1:layout_height="wrap_content"
+            android1:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:text="Question4:\n The answer is: 4. IaaS, SaaS, PaaS, Naas" />
+        </LinearLayout>
+
+        <LinearLayout
+            android1:id="@+id/explanation5"
+            android1:layout_width="match_parent"
+            android1:layout_height="wrap_content"
+            android1:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android1:textSize="12sp"
+                android:text="Question5:\n The answer is:Danny loves Cloud Computing, while Sophia hates. It is described clearly in the story" />
+        </LinearLayout>
+
+        <LinearLayout
+            android1:id="@+id/explanation6"
+            android1:layout_width="match_parent"
+            android1:layout_height="wrap_content"
+            android1:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:text="Question6:\n The answer is: She thinks Cloud Computing can cause data loss. One of the major issue of Cloud Computing is data leakage." />
+        </LinearLayout>
+
+        <LinearLayout
+            android1:id="@+id/explanation7"
+            android1:layout_width="match_parent"
+            android1:layout_height="wrap_content"
+            android1:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:text="Question7:\n The answer is: False. Danny does not say anything about the statement." />
+        </LinearLayout>
+
+        <LinearLayout
+            android1:id="@+id/explanation8"
+            android1:layout_width="match_parent"
+            android1:layout_height="wrap_content"
+            android1:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:text="Question8:\n The answer is: False. Danny is the one who suggested it." />
+        </LinearLayout>
+
+        <LinearLayout
+            android1:id="@+id/explanation9"
+            android1:layout_width="match_parent"
+            android1:layout_height="wrap_content"
+            android1:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:text="Question9:\n The answer is: True. Danny really did suggest this." />
+        </LinearLayout>
+
+        <LinearLayout
+            android1:id="@+id/explanation10"
+            android1:layout_width="match_parent"
+            android1:layout_height="wrap_content"
+            android1:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:text="Question10:\n The answer is: False. Both Danny and Sophia did not reach an agreement and let the CIO decides." />
+            
+            
+
+        </LinearLayout>
+        
+          <LinearLayout
+                android:id="@+id/randomlayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"            
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+			</LinearLayout>
+        
+         <LinearLayout
+            android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:gravity="right|bottom"
+            android:orientation="vertical">
+      <Button
+        android:id="@+id/next_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"    
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:textColor="#ffffff"
+        android:background="@drawable/play_button"
+        android:shadowColor="#000000"
+        android:onClick="goToStory"
+        android:text="@string/next_story" />
+        </LinearLayout>
+        
+    </LinearLayout>
+
+</ScrollView>

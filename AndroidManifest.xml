@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.secured"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.secured.SplashScreen"
+            android:label="@string/app_name"
+            android:launchMode="standard"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.secured.SecurEd"
+            android:label="@string/app_name" 
+            android:launchMode="standard"
+            android:screenOrientation="unspecified">
+            <intent-filter>
+                <action android:name="com.example.secured.SecurEd" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.secured.WhatIsSecurity"></activity>
+        <activity android:name="com.example.secured.ChooseStory"></activity>
+        <activity android:name="com.example.secured.Grade"></activity>
+        <activity android:name="com.example.secured.Quiz1"></activity>
+        <activity android:name="com.example.secured.Quiz1Explanation"></activity>
+        <activity android:name="com.example.secured.Quiz2"></activity>
+        <activity android:name="com.example.secured.Quiz2Explanation"></activity>
+        <activity android:name="com.example.secured.Quiz3"></activity>
+        <activity android:name="com.example.secured.Quiz3Explanation"></activity>
+        <activity android:name="com.example.secured.Quiz4"></activity>
+        <activity android:name="com.example.secured.Quiz4Explanation"></activity>
+        <activity android:name="com.example.secured.ScoreBoard"></activity>
+        <activity android:name="com.example.secured.Story1"></activity>
+        <activity android:name="com.example.secured.Story1Explanation"></activity>
+        <activity android:name="com.example.secured.Story2"></activity>
+        <activity android:name="com.example.secured.Story2Explanation"></activity>
+        <activity android:name="com.example.secured.Story3"></activity>
+        <activity android:name="com.example.secured.Story3Explanation"></activity>
+        <activity android:name="com.example.secured.Story4"></activity>
+        <activity android:name="com.example.secured.Story4Explanation"></activity>
+    </application>
+
+</manifest>
